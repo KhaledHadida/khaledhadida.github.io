@@ -12,7 +12,7 @@ export default function header() {
   };
 
   return (
-    <div className="h-screen bg-black text-white">
+    <div className="h-screen text-white">
       <div className="flex justify-center items-center">
         <nav className="bg-maroon p-5 m-3 space-x-4 rounded-full text-xl font-bold">
           <Link href="/about"

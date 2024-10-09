@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,11 +19,271 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: white;
+  /* This is going to be the background color at all times */
+  background-color: #22092C;
+  font-size: large;
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* Nav bar */
+
+
+/* Animation for stars */
+.stars {
+  position: relative;
+  width: 2px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 50%;
+  z-index: -1;
+  position: fixed;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 5px 1px #ffffff,
+    -99px 30px 1px 0.09px #ffffff,
+    355px 30px 0.5px 1px #ffffff,
+    400px -30px 1px -1px #ffffff,
+    400px 90px 1px -1px #ffffff,
+    -50px -30px 1px -1px #ffffff;
+  /* animation: twinkle 7s ease;
+  animation-iteration-count: infinite;  */
+}
+
+/* moon */
+.moon {
+  background-color: rgb(212, 212, 212);
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  box-shadow: 5px 0 10px 3px rgba(229, 229, 229, 0.3),
+    0 0 10px 2px rgba(229, 229, 229, 0.3),
+    5px 0 10px 3px rgba(229, 229, 229, 0.3),
+    0px 0 3px 2px rgba(229, 229, 229, 0.3);
+  position: relative;
+  z-index: 20;
+  overflow: hidden;
+
+}
+
+
+.moonReversed {
+  background-color: black;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  box-shadow: -50px 0 60px 50px rgba(0, 0, 0, 0.05);
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 98;
+  overflow: hidden;
+}
+
+/* I want to show that nice glow around the moon at all times */
+.wrapper {
+  display: inline-block;
+  position: relative;
+  border-radius: 50%;
+  box-shadow: 5px 0 10px 3px rgba(229, 229, 229, 0.3),
+    0 0 10px 2px rgba(229, 229, 229, 0.3),
+    5px 0 10px 3px rgba(229, 229, 229, 0.3),
+    0px 0 3px 2px rgba(229, 229, 229, 0.3);
+
+}
+
+/* animation: twinkle 2s infinite; */
+
+.HeaderFade {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+/* Timeline for my projects CSS */
+.timeline {
+  position: relative;
+  max-width: 75%;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+  opacity: 0.25;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #F05941;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: rgb(240, 89, 65, 0.5);
+  position: relative;
+  border-radius: 15px;
+  /* font-family: "Lucida Console", "Courier New", monospace; */
+  font-family: 'Orbitron', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.itemTop {
+  cursor: pointer;
+}
+
+.projectContent > *{
+  margin-bottom: 2%;
+}
+
+/* animation */
+@keyframes example {
+  50% {transform: rotate(180deg);}
+}
+
+/* delete? */
+.arrow {
+  /* width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid #555; */
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+/* All h2 tags */
+.content>h2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: x-large;
+}
+
+.content>h3 {
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+}
+
+/* capsule inside the project */
+.capsule {
+  background-color: #F05941;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
+
+}
+
+.capsule:hover {
+  background-color: #F05941;
+  transform: translate(-1rem, -1ex);
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.5);
+  /* cursor: pointer; */
+}
+
+/* Pictures for projects */
+.image-container {
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  /* overflow: hidden; */
+}
+
+.image-container img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }

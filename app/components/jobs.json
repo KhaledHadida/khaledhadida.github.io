@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Software Engineer",
+        "company": "Dematic",
+        "img": "Dematic.png"
+    },
+    {
+        "title": "IT System Admininstrator & Developer",
+        "company": "Prica Global Enterprise",
+        "img": "Prica.png"
+    },
+    {
+        "title": "Software Support Student",
+        "company": "BlackBerry Limited",
+        "img": "BlackBerry.png"
+    },
+    {
+        "title": "IT Support Specialist",
+        "company": "University of Waterloo",
+        "img": "UWaterloo.png"
+    }
+]

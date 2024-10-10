@@ -1,15 +1,9 @@
 /** @type {import('next').NextConfig} */
-
-
-const isProd = process.env.NODE_ENV === 'production';
-
-module.exports = {
-    assetPrefix: isProd ? '/khaledhadida.github.io/' : '',
+const nextConfig = {
     images: {
-      unoptimized: true,
+        unoptimized: true,
     },
-    trailingSlash: true, 
-  };
+    output: 'export',
+};
 
-//const nextConfig = {}
-//module.exports = nextConfig
+module.exports = nextConfig;

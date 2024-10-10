@@ -6,10 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d out"
   },
-  "homepage": "https://khaledhadida.github.io/",
+  "homepage": ".",
   "dependencies": {
     "@headlessui/react": "^1.7.18",
     "next": "^14.2.14",

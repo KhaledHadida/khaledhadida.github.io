@@ -13,6 +13,7 @@ const ImageComponent = ({ pic, title, id }: ImageComponentProps) => {
         <div className='image-container'>
             <Image
                 src={`/images/${title}/${pic}`}
+                //both width & height are overriden by the image-container css
                 width={100}
                 height={100}
                 alt={`${pic} Picture missing`}

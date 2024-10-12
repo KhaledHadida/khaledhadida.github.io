@@ -276,8 +276,9 @@ body {
 
 /* Pictures for projects */
 .image-container {
-  width: 200px;
-  height: 200px;
+  width: auto;
+  max-width: 200px;
+  height: "auto";
   padding: 5px;
   /* overflow: hidden; */
 }

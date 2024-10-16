@@ -60,8 +60,6 @@ export default function Project() {
         setShowImage(false);
     };
 
-
-
     return (
         <div>
             <div id="projects" className="flex justify-center items-center scroll-mt-[150px]">
@@ -70,7 +68,7 @@ export default function Project() {
             <div className="timeline">
                 {
                     ProjectItems.map((project: Project, index) => (
-                        <div className={`container ${index % 2 ? 'right' : 'left'}`} key={index}>
+                        <div className={`container  ${index % 2 ? 'right' : 'left'}`} key={index}>
                             <div className="content" >
                                 <div className='itemTop grid grid-cols-3' onClick={() => toggleCollapse(index)}>
                                     {/* an arrow imported with anim, if button is pressed the arrow is flipped 180 */}
@@ -111,15 +109,13 @@ export default function Project() {
                                                     {/* Image Modal Popup */}
                                                 </div>
                                                 {showImage &&
-                                                    <div onClick={()=>closeImageModal()}>
+                                                    <div onClick={() => closeImageModal()}>
                                                         <ImageModal pic={image.pic} title={image.title} id={image.index} />
                                                     </div>
                                                 }
                                             </div>
                                         ))}
                                     </div>
-
-
                                 </div>
                             </div>
                         </div>

@@ -76,13 +76,13 @@ body {
   position: relative;
   top: 0;
   left: 0;
-  z-index: 98;
+  z-index: 49;
   overflow: hidden;
 }
 
 /* I want to show that nice glow around the moon at all times */
 .wrapper {
-  display: inline-block;
+  /* display: inline-block; */
   position: relative;
   border-radius: 50%;
   box-shadow: 5px 0 10px 3px rgba(229, 229, 229, 0.3),
@@ -123,10 +123,13 @@ body {
 }
 
 
+
+
 /* Timeline for my projects CSS */
+
 .timeline {
   position: relative;
-  max-width: 75%;
+  width: 75%;
   margin: 0 auto;
   padding-top: 5rem;
 }
@@ -142,6 +145,8 @@ body {
   margin-left: -3px;
   opacity: 0.25;
 }
+
+
 
 /* Container around content */
 .container {
@@ -164,6 +169,43 @@ body {
   border-radius: 50%;
   z-index: 1;
 }
+
+/* Responsiveness */
+
+@media (max-width: 1024px) {
+
+  /* Define styles for 'lg' screens and above */
+  /* This is for the capsules for the projects */
+  .timeline {
+    width: 75%;
+  }
+
+  /* For the bar in the middle */
+  .timeline::after {
+    display: none;
+  }
+
+  /* This is for the arrangement of capsules for projects (left & right) */
+  .container {
+    width: 100%;
+    position: static;
+  }
+
+  /* the circular objects & arrows in middle of the project timeline */
+  .container::after, .left::before, .right::before {
+    display: none;
+  }
+
+}
+
+@media (max-width: 640px) {
+
+  /* This is for the capsules for the projects */
+  .timeline {
+    width: 100%;
+  }
+}
+
 
 /* Place the container to the left */
 .left {
@@ -225,13 +267,15 @@ body {
   cursor: pointer;
 }
 
-.projectContent > *{
+.projectContent>* {
   margin-bottom: 2%;
 }
 
 /* animation */
 @keyframes example {
-  50% {transform: rotate(180deg);}
+  50% {
+    transform: rotate(180deg);
+  }
 }
 
 /* delete? */

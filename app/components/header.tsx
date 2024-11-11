@@ -28,7 +28,7 @@ export default function Header() {
 
   return (
     <div className={`fixed w-full z-50 flex justify-center items-center mt-5 select-none`}>
-      <nav className="relative bg-maroon rounded-full text-xl font-bold border-4 border-yellow-800">
+      <nav id="header" className="relative bg-maroon rounded-full text-xl font-bold border-4 border-yellow-800">
         {/* About radio button */}
         <div
           className={`absolute top-0 h-full w-1/3 bg-orange transition-all duration-500 ease-in-out rounded-full ${getPosition()}`}

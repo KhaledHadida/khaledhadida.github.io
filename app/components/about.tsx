@@ -85,13 +85,17 @@ export default function About() {
     return (
         <div id="about" className="text-center flex h-lvh justify-evenly items-center flex-col lg:flex-row mx-5">
             <div>
-                <h1>Hello! My name is Khaled. </h1>
-                <h2>..and welcome to my portfolio! where you will see all of my updated projects & work experiences!</h2>
-                <h3 className="italic text-xs text-gray-400 mt-5 font-bold">(Please note this site is still a work in progress..)</h3>
+                <div className="flex space-x-2 justify-center">
+                    <h1 className="text-4xl font-bold mb-7 bg-clip-text text-transparent bg-gradient-to-r from-pink-300 to-violet-700">Hello! My name is Khaled.</h1>
+                    <span className="text-4xl">🚀</span>
+                </div>
+                <h2>Welcome to my portfolio! where you will see all of my updated projects & work experiences!</h2>
+                <h2>I am currently working on a fun game using React called <a className="bg-clip-text text-transparent bg-gradient-to-r from-green-200 to-green-700 font-bold underline" href="https://calories-jack.vercel.app/">CaloriesJack</a></h2>
+                <h3 className="italic text-xs text-gray-400 font-bold">(Please note this site is still a work in progress..)</h3>
             </div>
             {/* Moon */}
 
-            <div className= "">
+            <div className="">
                 {direction ? (
                     <div className="wrapper">
                         <div id="moonReversed" className="moonReversed">

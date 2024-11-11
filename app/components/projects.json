@@ -1,5 +1,28 @@
 [
     {
+        "title": "CaloriesJack",
+        "date": "October 2024 - November 2024",
+        "github": "https://github.com/KhaledHadida/CaloriesJack",
+        "tech": [
+            "React",
+            "Supabase",
+            "JavaScript",
+            "HTML & Tailwind",
+            "Vercel & Render",
+            "REST API"
+        ],
+        "play": "https://calories-jack.vercel.app/",
+        "pics": [
+            "CaloriesJack (1).jpg",
+            "CaloriesJack (2).jpg",
+            "CaloriesJack (3).jpg",
+            "CaloriesJack (4).jpg",
+            "CaloriesJack (5).jpg",
+            "CaloriesJack (6).jpg"
+        ],
+        "desc": " CaloriesJack is a competitive calorie-tracking challenge where players try to reach a target calorie goal without exceeding it. Each player chooses a food item which is tallied at the end. Those closest to the goal are declared the winners. Game is hosted on Vercel & Render (Frontend & Backend) and uses Supabase for Database (PostgreSQL)"
+    },
+    {
         "title": "My Website",
         "date": "August 2024 - October 2024",
         "github": "https://github.com/KhaledHadida/khaledhadida.github.io",

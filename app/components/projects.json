@@ -1,4 +1,29 @@
 [
+        {
+        "title": "Caravans of Fortune",
+        "date": "January 2025 - May 2025",
+        "github": "https://github.com/KhaledHadida/Caravans-of-Fortune",
+        "tech": [
+            "Unity",
+            "C#",
+            "Figma",
+            "Lua (briefly)"
+        ],
+        "play": "https://khaledhadida.github.io/Caravans-of-Fortune/",
+        "pics": [
+            "Caravans of Fortune (1).jpg",
+            "Caravans of Fortune (2).jpg",
+            "Caravans of Fortune (3).jpg",
+            "Caravans of Fortune (4).jpg",
+            "Caravans of Fortune (5).jpg",
+            "Caravans of Fortune (6).jpg",
+            "Caravans of Fortune (7).jpg",
+            "Caravans of Fortune (8).jpg",
+            "Caravans of Fortune (9).jpg",
+            "Caravans of Fortune (10).jpg"
+        ],
+        "desc": "Initially I used Love2D to create this game, but it was taking too long so I shifted to Unity! This is a trading game I started making in January 2025, after an inspiration I took while attending a friend`s LAN party, one of my buddies was playing Balatro, I wanted to make a game where you are rewarded for combining things, but I also wanted the game to be realistic, thus I made a game that`s set in the days of old Silk Road. In this game you must meet your gold target otherwise you lose, and you gain gold through buying & combining items or treasures. Avoid bandits all time!"
+    },
     {
         "title": "CaloriesJack",
         "date": "October 2024 - November 2024",
@@ -9,6 +34,8 @@
             "JavaScript",
             "HTML & Tailwind",
             "Vercel & Render",
+            "NodeJS",
+            "ExpressJS",
             "REST API"
         ],
         "play": "https://calories-jack.vercel.app/",
@@ -18,7 +45,11 @@
             "CaloriesJack (3).jpg",
             "CaloriesJack (4).jpg",
             "CaloriesJack (5).jpg",
-            "CaloriesJack (6).jpg"
+            "CaloriesJack (6).jpg",
+            "CaloriesJack (7).jpg",
+            "CaloriesJack (8).jpg",
+            "CaloriesJack (9).jpg",
+            "CaloriesJack (10).jpg"
         ],
         "desc": " CaloriesJack is a competitive calorie-tracking challenge where players try to reach a target calorie goal without exceeding it. Each player chooses a food item which is tallied at the end. Those closest to the goal are declared the winners. Game is hosted on Vercel & Render (Frontend & Backend) and uses Supabase for Database (PostgreSQL)"
     },
@@ -74,9 +105,16 @@
             "NodeJS",
             "MongoDB"
         ],
+        "play": "https://top-ten-games-mocha.vercel.app/",
         "pics": [
             "Top Ten Games Site (1).jpg",
-            "Top Ten Games Site (2).jpg"
+            "Top Ten Games Site (2).jpg",
+            "Top Ten Games Site (3).jpg",
+            "Top Ten Games Site (4).jpg",
+            "Top Ten Games Site (5).jpg",
+            "Top Ten Games Site (6).jpg",
+            "Top Ten Games Site (7).jpg",
+            "Top Ten Games Site (8).jpg"
         ],
         "desc": "Along with a friend who worked on the backend, I’ve developed a dynamic web application for managing a personal list of top ten games, enabling users to add, edit, and delete game entries. The project involved building a user authentication system, implementing a responsive user interface, and connecting to a back-end API to fetch and update game data. It also featured real-time updates for added games and an efficient loading screen during data retrieval."
     },

@@ -13,7 +13,7 @@ export default function work() {
 
     return (
         <div id="work" className="flex flex-col justify-center items-center scroll-mt-[150px] max-w-[75%] m-auto">
-            <h1 className="bg-maroon text-white text-center py-4 px-10 rounded-lg">Places I worked at</h1>
+            <h1 className="bg-maroon text-white text-center py-4 px-10 rounded-lg">Work</h1>
             <div className='space-y-7 w-full m-5'>
                 {Jobs.map((job: Job, index) => (
                     <div key={index} className={`flex flex-col lg:flex-row rounded-lg items-center justify-between ${index % 2 ? 'lg:flex-row-reverse bg-gradient-to-l from-orange lg:rounded-r-full': 'bg-gradient-to-r from-orange lg:rounded-s-full'} `}>

@@ -89,9 +89,10 @@ export default function About() {
                     <h1 className="text-4xl font-bold mb-7 bg-clip-text text-transparent bg-gradient-to-r from-pink-300 to-violet-700">Hello! My name is Khaled.</h1>
                     <span className="text-4xl">🚀</span>
                 </div>
-                <h2>Welcome to my portfolio! where you will see all of my updated projects & work experiences!</h2>
-                <h2>I am currently working on a fun game using React called <a className="bg-clip-text text-transparent bg-gradient-to-r from-green-200 to-green-700 font-bold underline" href="https://calories-jack.vercel.app/">CaloriesJack</a></h2>
-                <h3 className="italic text-xs text-gray-400 font-bold">(Please note this site is still a work in progress..)</h3>
+                <h2>I am a tech enthusiast with experience in IT support, automation, game dev and most recently front-end development.</h2>
+                <h2 className="mb-7">I love creating projects and learning new technologies whenever I can.</h2>
+                <h2>I am currently working on a fun game in Unity called <a className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-yellow-600 font-bold" href="https://khaledhadida.github.io/Caravans-of-Fortune/">Caravans of Fortune</a></h2>
+                <h3 className="italic text-xs text-gray-400 font-bold ">(Please note this site is subject to change..)</h3>
             </div>
             {/* Moon */}
 

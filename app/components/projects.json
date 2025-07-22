@@ -1,7 +1,7 @@
 [
         {
         "title": "Caravans of Fortune",
-        "date": "January 2025 - May 2025",
+        "date": "January 2025 - July 2025",
         "github": "https://github.com/KhaledHadida/Caravans-of-Fortune",
         "tech": [
             "Unity",
@@ -137,6 +137,22 @@
         "desc": "During my Computer Application Development program at Conestoga College, I was given an opportunity to work with a team of 4 on a capstone, we’ve decided to create a website called “Conestoga Hub” which is basically a platform to allow college students to collaborate with each other through creating forms/posts and provides a small library of articles which has convenient access to important information for students at Conestoga College."
     },
     {
+        "title": "Athan Notifier",
+        "date": "January 2023 - January 2023",
+        "github": "https://github.com/KhaledHadida/Athan-Notification-Extension",
+        "youtube": "",
+        "tech": [
+            "JavaScript",
+            "HTML & CSS"
+        ],
+        "pics": [
+            "Athan Notifier (1).jpg",
+            "Athan Notifier (2).jpg",
+            "Athan Notifier (3).jpg"
+        ],
+        "desc": "another chrome extension that showcases the different prayer times according to geographic location and displays a daily hadith (sayings of the prophet Muhammad peace be upon him) on the bottom of it (made it because I wanted to quickly check time for prayers rather than check a site that sometimes is down at random times)"
+    },
+    {
         "title": "2D IT Simulator",
         "date": "February 2022 - January 2023",
         "github": "https://github.com/KhaledHadida/2D-IT-Simulator",
@@ -185,22 +201,6 @@
             "Farm Tiles (2).jpg"
         ],
         "desc": "Unity game I made back in 2019 that is entirely made of buttons! The premise of the game is to farm crops & sell them, then buy more crops and repeat the cycle. This was one of my very first Unity projects I made and wanted to test the performance of using buttons."
-    },
-    {
-        "title": "Athan Notifier",
-        "date": "May 2017 - June 2017",
-        "github": "https://github.com/KhaledHadida/AthanNotifier",
-        "youtube": "",
-        "tech": [
-            "JavaScript",
-            "HTML & CSS"
-        ],
-        "pics": [
-            "Athan Notifier (1).jpg",
-            "Athan Notifier (2).jpg",
-            "Athan Notifier (3).jpg"
-        ],
-        "desc": "another chrome extension that showcases the different prayer times according to geographic location and displays a daily hadith (sayings of the prophet Muhammad peace be upon him) on the bottom of it (made it because I wanted to quickly check time for prayers rather than check a site that sometimes is down at random times)"
     },
     {
         "title": "TrackLife",

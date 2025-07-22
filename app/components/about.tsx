@@ -91,7 +91,7 @@ export default function About() {
                 </div>
                 <h2>I am a tech enthusiast with experience in IT support, automation, game dev and most recently front-end development.</h2>
                 <h2 className="mb-7">I love creating projects and learning new technologies whenever I can.</h2>
-                <h2>I am currently working on a fun game in Unity called <a className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-yellow-600 font-bold" href="https://khaledhadida.github.io/Caravans-of-Fortune/">Caravans of Fortune</a></h2>
+                <h2>I am currently finishing up a fun game in Unity called <a className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-yellow-600 font-bold" href="https://khaledhadida.github.io/Caravans-of-Fortune/">Caravans of Fortune</a></h2>
                 <h3 className="italic text-xs text-gray-400 font-bold ">(Please note this site is subject to change..)</h3>
             </div>
             {/* Moon */}
